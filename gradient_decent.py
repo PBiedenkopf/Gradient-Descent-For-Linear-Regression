@@ -74,7 +74,7 @@ class GradienDescent:
             variables: 
                 X - dataset for which a value gets predicted by the model
         """
-        x_buffer = list(x) # for final print statment
+        x_buffer = list(x[:])  # for final print statment
         for i in range(len(self.sigma)):
             x[i] = (x[i] - self.mu[i]) / self.sigma[i]
         
