@@ -1,4 +1,4 @@
-## Gradient descent for linear regression
+# Gradient descent for linear regression
 In progress ...
 
 
@@ -6,7 +6,9 @@ In progress ...
 The included datasets are open datasets taken from [kaggle](https://www.kaggle.com/). 
 To use them in linear regression some parameters of the datasets are modified from string to belonging int values.
 
-# [Fish market dataset](https://www.kaggle.com/aungpyaeap/fish-market)
+### [Fish market dataset](https://www.kaggle.com/aungpyaeap/fish-market)
+GPL 2 license
+
 Objective:
 - Predict the weight of a fish for different body measures and the species
 
@@ -18,9 +20,6 @@ Parameters:
 - Length 3
 - Height
 - Width
-
-License:
-GPL 2
 
 
 ## License
