@@ -1,8 +1,8 @@
 # Gradient descent for linear regression
-In progress ...
+This implementation of linear regression uses gradien descent for minimization of the cost function. Optionally polynomial features can be added with a regularized cost function.
 
 ## Datasets
-The included datasets are open datasets taken from [kaggle](https://www.kaggle.com/). 
+The included datasets in the examples are open datasets taken from [kaggle](https://www.kaggle.com/). 
 To use them in linear regression some parameters of the datasets are modified from string to belonging numerous values.
 
 ### [Fish market dataset](https://www.kaggle.com/aungpyaeap/fish-market)
